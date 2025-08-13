@@ -1,0 +1,26 @@
+Web hooks?
+Automated messages that are sent when something happerns...
+user.created
+clerk uses svix as their signature webhooks../
+
+clerk uses svix as their signatures ..and to verify
+Why we use WebHooks?
+
+🔥 Zarurat kyun hoti hai webhook ki?
+1. Real-time update milta hai
+Jaise hi koi event hota hai (signup, order, etc.), webhook turant tumhare backend ko notify karta hai. Tumhe baar-baar check karne ki zarurat nahi hoti.
+
+🧠 Polling system mein tumhara backend baar-baar check karta hai: “kuch naya hua kya?” 🛰️ Webhook system mein dusra app khud batata hai: “bhai, naya user signup hua!”
+
+2. Server load kam hota hai
+Baar-baar API call karne ki zarurat nahi padti, isse tumhara server halka rehta hai aur fast kaam karta hai.
+
+3. Automation easy ho jata hai
+Webhook se tum apne backend mein automatic actions laga sakte ho:
+
+User signup hua? → Welcome email bhej do.
+
+Payment success hua? → Invoice generate kar do.
+
+4. Integration smooth hoti hai
+Webhook se tum apne app ko dusre apps ke saath easily integrate kar sakte ho — jaise Stripe, GitHub, Clerk, etc.
