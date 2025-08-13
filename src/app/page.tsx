@@ -2,16 +2,20 @@ import React from 'react'
 import { Button } from '@/components/ui/button'
 import { SignedIn,SignedOut,SignInButton,SignOutButton,UserButton } from '@clerk/nextjs'
 import image from "next/image"
-const page = () => {
+const Home = () => {
   return (
     <div className="m-10">
-      <SignedOut>
-        <SignInButton/>
-      </SignedOut>
-      <SignedIn>
-        <SignOutButton/>
-      </SignedIn>
+      <SignInButton>
+        <Button>
+          Sign In
+        </Button>
+      </SignInButton>
+      <SignOutButton>
+        <Button>
+          SignOut
+        </Button>
+      </SignOutButton>
     </div>
   )
 }
-export default page
+export default Home

@@ -72,7 +72,13 @@
   * {
     @apply border-border;
   }
-  body {
+  /* body {
     @apply bg-background text-foreground;
-  }
+  } */
+     body {
+       background-color: #121212;
+       /* Choose a dark color */
+       color: #ffffff;
+       /* Optional: set text color to white for contrast */
+     }
 }

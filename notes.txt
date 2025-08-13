@@ -24,3 +24,9 @@ Payment success hua? → Invoice generate kar do.
 
 4. Integration smooth hoti hai
 Webhook se tum apne app ko dusre apps ke saath easily integrate kar sakte ho — jaise Stripe, GitHub, Clerk, etc.
+
+Q)Mutation Kya kar raha hai??
+wo hume allow karta hai ki hum db me edit/changes kar sakte hai..
+why we are not using query then>??
+Query se sirf hum data read kar sakte hai database se na ki write/modify.
+(Refrence File->http.ts)
